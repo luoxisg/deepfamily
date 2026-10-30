@@ -30,8 +30,10 @@
   算力服务的系统。社区机构只作介绍，不进入算力与资料链路。
 - 不适用：本需求书不承诺任何报价包含硬件、GPU 配额、AI 能力或
   云储存；不承诺任何效果数据；不包含真实家庭资料。
-- 术语：本文中“Mac Pro”指 Mac mini + M4 Pro 赞助主机，
-  不是苹果 Mac Pro 塔式机（见 docs/mac-mini-m4-pro.md）。
+- 术语与机型确认（2026-10-30 已确认）：赞助主机是 Mac mini，
+  不是 Mac Pro 塔式机、不是 Mac Studio、不是其他台式机。
+  具体芯片、内存、SSD 仍待确认，规划基线为 M4 Pro 48 GB
+  （见 docs/mac-mini-m4-pro.md）。
 
 ### English
 
@@ -46,8 +48,10 @@
 - Exclusions: this document does not promise that any price includes
   hardware, GPU quota, AI capability, or cloud storage; it promises
   no effect data; it contains no real household data.
-- Terminology: "Mac Pro" in this project means the Mac mini with
-  M4 Pro sponsor host, not Apple's Mac Pro tower (see
+- Terminology and host confirmation (confirmed 2026-10-30): the
+  sponsor host is a Mac mini — not a Mac Pro tower, not a Mac Studio,
+  and not any other desktop. Exact chip, memory, and SSD are still
+  to be confirmed; the planning baseline is M4 Pro, 48 GB (see
   docs/mac-mini-m4-pro.md).
 
 ---
@@ -706,7 +710,8 @@ All must pass before v1 can be called "usable":
 3. 转录、LLM、TTS 的具体模型与量化方案（须在基准机上实测后定）。
 4. 社区介绍记录的保存方、保存期限与查看权限。
 5. 试点家庭的选择标准、授权书模板、退出流程的书面约定。
-6. “Mac Pro”如指塔式机而非 Mac mini M4 Pro，须另立机型容量案。
+6. 机型已确认是 Mac mini，不再保留塔式机等其他机型的备选容量案；
+   仍待确认的是 Mac mini 的具体芯片、内存与 SSD 配置。
 
 ### English
 
@@ -721,8 +726,9 @@ All must pass before v1 can be called "usable":
    viewing permissions.
 5. Pilot-household selection criteria, authorisation form template,
    and written exit procedure.
-6. If "Mac Pro" means the tower rather than the Mac mini M4 Pro, a
-   separate capacity case for that model is required.
+6. Host form factor is confirmed as Mac mini; no alternative capacity
+   case for a tower or other desktop is kept. What remains open is
+   the Mac mini's exact chip, memory, and SSD configuration.
 
 ---
 

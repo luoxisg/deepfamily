@@ -1,13 +1,11 @@
-# Sponsor Host — Mac mini with M4 Pro: Development Notes
+# Sponsor Host — Mac mini: Development Notes
 
-> Terminology, read this first: in this project "Mac Pro" in
-> conversation means the **Mac mini with M4 Pro** (the sponsor host
-> discussed in the main README), NOT Apple's Mac Pro tower. The Mac
-> Pro tower is a different machine, with a different chip range and
-> price, and it is not assumed anywhere in DeepFamily unless a
-> sponsor explicitly buys one. If a sponsor does buy a Mac Pro tower,
-> re-run the capacity numbers for that exact chip before promising
-> anything.
+> Confirmed 2026-10-30: the sponsor host is a **Mac mini** — not a
+> Mac Pro tower, not a Mac Studio, and not any other desktop.
+> The planning baseline in this document is Mac mini with M4 Pro,
+> 48 GB, but the exact chip, memory, and SSD are still to be confirmed
+> with the supplier. Do not use numbers for any other Apple desktop
+> in this project.
 
 Official hardware source:
 

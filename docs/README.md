@@ -21,10 +21,10 @@ they contain no credentials, tokens, or real household data.
   list that must pass before 1-to-5 is promised. Official hardware
   specs: https://support.apple.com/en-us/121555
 
-  Note on terminology: "Mac Pro" in conversation about this project
-  means the Mac mini with M4 Pro, not Apple's Mac Pro tower. If a
-  sponsor buys a Mac Pro tower instead, re-run all capacity numbers
-  for that exact chip.
+  Confirmed 2026-10-30: the sponsor host is a Mac mini — not a Mac Pro
+  tower, not a Mac Studio, and not any other desktop. Exact chip,
+  memory, and SSD are still to be confirmed; the planning baseline
+  is M4 Pro, 48 GB.
 
 ## How to use these docs
 
