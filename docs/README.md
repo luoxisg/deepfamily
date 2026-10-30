@@ -14,6 +14,13 @@ they contain no credentials, tokens, or real household data.
   error handling. Official reference:
   https://developers.google.com/drive/v3/reference
 
+- [Household vs sponsor data isolation policy](data-isolation-policy.md)
+  Chinese first, then English per section. Sponsor compute is not
+  sponsor access: roles, allow/deny list, per-household keys, audit
+  hash chain, backup/deletion/exit, threat model and honest boundary,
+  and the demo-to-production replacement list. Demo code:
+  `demo/demo/isolation.py`, tests: `demo/tests/test_isolation.py`.
+
 - [Sponsor host — Mac mini with M4 Pro](mac-mini-m4-pro.md)
   Hardware to confirm before purchase, unified-memory bandwidth
   (273 GB/s on M4 Pro), local AI stack on Apple Silicon (MLX,
