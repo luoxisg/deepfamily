@@ -104,6 +104,8 @@ demo/
                    Transcript review gate: nothing is indexed before family review
     qa.py          只依据检索到的块回答：已回答 / 未知 / 冲突
                    Answer only from retrieved chunks: answered / unknown / conflicting
+    isolation.py   家庭与赞助方隔离：身份门禁、审计链、每户密封备份
+                   Household vs sponsor isolation: identity gate, audit chain, per-household sealed backup
     benchmark.py   并发问答计时（1 / 3 / 5 会话）
                    Concurrent Q&A timing (1 / 3 / 5 sessions)
     server.py      标准库开发者面板（http://127.0.0.1:8001）
@@ -116,7 +118,8 @@ demo/
     audio/tenant_1/      虚构转录测试文件（不是真实录音）
                          Fictional transcript fixture (not a real recording)
   tests/test_demo.py     验收测试
-                         Acceptance tests
+  tests/test_isolation.py  家庭与赞助方隔离测试
+                         Acceptance tests, plus household vs sponsor isolation tests
   demo_data/             运行时数据，首次运行生成，不进 git
                          Runtime data, created on first run, NOT in git
 ```
