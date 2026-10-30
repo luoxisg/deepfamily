@@ -180,8 +180,10 @@ questions. They are the acceptance test for the 1-to-5 claim:
   notes (M4 Pro hardware to confirm, unified memory, local AI stack
   on Apple Silicon, host operations, benchmarks before 1-to-5).
 
-Note: "Mac Pro" in this project's conversation means the Mac mini
-with M4 Pro, not Apple's Mac Pro tower — see docs/README.md.
+Confirmed 2026-10-30: the sponsor host is a Mac mini — not a Mac Pro
+tower, not a Mac Studio, and not any other desktop. Exact chip,
+memory, and SSD are still to be confirmed (planning baseline:
+M4 Pro, 48 GB) — see docs/README.md.
 
 ## 11. Acceptance criteria (v1)
 
