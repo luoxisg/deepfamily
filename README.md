@@ -170,7 +170,20 @@ questions. They are the acceptance test for the 1-to-5 claim:
    when compute is sponsored, storage is on a free third-party
    platform, and introduction is by a community organisation?
 
-## 10. Acceptance criteria (v1)
+## 10. Development documentation
+
+- [docs/README.md](docs/README.md) — index of development notes.
+- [docs/google-drive-api.md](docs/google-drive-api.md) — Drive API v3
+  notes for DeepFamily (scopes, list/search, download/export,
+  incremental sync, quota, permissions).
+- [docs/mac-mini-m4-pro.md](docs/mac-mini-m4-pro.md) — sponsor host
+  notes (M4 Pro hardware to confirm, unified memory, local AI stack
+  on Apple Silicon, host operations, benchmarks before 1-to-5).
+
+Note: "Mac Pro" in this project's conversation means the Mac mini
+with M4 Pro, not Apple's Mac Pro tower — see docs/README.md.
+
+## 11. Acceptance criteria (v1)
 
 - [ ] Host model, memory, SSD, and supplier benchmarks confirmed
       in writing for the 1-to-5 case.
