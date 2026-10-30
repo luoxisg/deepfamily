@@ -1,0 +1,5 @@
+Fictional test data only. Not a real family.
+
+CONFLICT_GROUP: shop-opened-year
+Uncle Zhang says the family shop opened in 1968.
+He remembers the shop sign being painted that summer.

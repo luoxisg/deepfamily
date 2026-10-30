@@ -1,0 +1,5 @@
+Fictional test data only. Not a real family.
+
+CONFLICT_GROUP: shop-opened-year
+Auntie Liu says the family shop opened in 1978.
+She remembers the shop opening after the road was widened.
